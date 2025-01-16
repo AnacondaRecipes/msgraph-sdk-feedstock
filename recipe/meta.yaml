@@ -53,6 +53,6 @@ about:
 extra:
   anaconda-services:
     ref: https://anaconda.zendesk.com/agent/tickets/64252
-    reason: Dependenccy for msgraph-sdk
+    reason: Client request
     recipe-maintainers:
       - ianaobi
