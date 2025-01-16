@@ -1,5 +1,5 @@
 {% set name = "msgraph-sdk" %}
-{% set version = "1.4.0" %}
+{% set version = "1.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/msgraph_sdk-{{ version }}.tar.gz
-  sha256: 715907272c240e579d7669a690504488e25ae15fec904e2918c49ca328dc4a14
+  sha256: 577e41942b0f794b8cf2f54db030bc039a750a81b515dcd0ba1d66fd961fa7bf
 
 build:
   noarch: python
@@ -50,7 +50,7 @@ about:
   doc_url: https://github.com/microsoftgraph/msgraph-sdk-python#readme
 extra:
   anaconda-services:
-    ref: https://anaconda.zendesk.com/agent/tickets/48409
+    ref: https://anaconda.zendesk.com/agent/tickets/64252
     reason: Dependenccy for msgraph-sdk
     recipe-maintainers:
       - ianaobi
