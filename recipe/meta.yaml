@@ -56,4 +56,3 @@ extra:
     reason: Dependenccy for msgraph-sdk
     recipe-maintainers:
       - ianaobi
-      - bkreider
